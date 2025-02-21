@@ -33,13 +33,13 @@ const StuccoBackground = () => (
 
       {/* Layer multiple rectangles with different colors and noise filters */}
       {/* Base layer - solid color */}
-      <rect width="100" height="100" fill="#A7C4E2" />
+      <rect width="100" height="100" fill="#FFC0CB" />
 
       {/* Additional layers with noise filter applied */}
       {/* Each layer has different opacity and color to create depth */}
-      <rect width="100%" height="100%" fill="#96B5D6" filter="url(#noise)" opacity="0.25" />
-      <rect width="100%" height="100%" fill="#B4CDE5" filter="url(#noise)" opacity="0.15" />
-      <rect width="100%" height="100%" fill="#89AAD0" filter="url(#noise)" opacity="0.1" />
+      <rect width="100%" height="100%" fill="#FFB6C1" filter="url(#noise)" opacity="0.25" />
+      <rect width="100%" height="100%" fill="#FFC0CB" filter="url(#noise)" opacity="0.15" />
+      <rect width="100%" height="100%" fill="#FFB0BE" filter="url(#noise)" opacity="0.1" />
     </svg>
   </div>
 );
